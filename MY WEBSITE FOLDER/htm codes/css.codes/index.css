@@ -1,0 +1,165 @@
+/*index.css*/
+/*General Styles*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    border: solid black 5px;
+    padding: 0%;
+    color: yellow;
+    background-color: green;
+    height: auto;
+    width: fit-content 100%;
+}
+h1{
+    justify-content: centerS;
+    align-content: center;
+    padding: 5px;
+    background-color:green;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border: solid white;
+    border-radius: 10px;
+    justify-items: center;
+}
+h2{
+    background-color:white ;
+    color: green;}
+nav{
+    background-color: yellow;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+    
+header{
+    background-color: #000;
+    color: yellow;
+    display: flexbox;
+    height: auto;
+    width: 100%;
+    align-content: center;
+    padding: auto;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: linear-gradient(to right, red,blue);
+    animation: fadeIn 5s ease-in-out;
+}
+.hero button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color: 0.3s;
+}
+.hero button:hover{
+transition-delay: 0.3s;
+background-color: green;
+color: black;
+border-radius: 10px;
+}
+/*About Us section*/
+.About{
+    background-color:yellow;
+color: #000;
+align-items: center;
+border: solid red 6px;
+}
+.About h2{
+    background-color: white;
+    color: blueviolet;
+    font-weight: bold;
+    align-content: center;
+    padding: 10px;
+    justify-items: center;
+}
+#Services{
+    background-color: blueviolet;
+    color: yellow;
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: solid white;
+    padding: 10px;
+}
+.row1{
+    background-color: #000;
+    background: linear-gradient(to right, red, black);
+    color: yellow;
+    padding: 10px;
+    pa
+}
+.row2{
+    background-color:#fff;
+    background: linear-gradient(to right, green, black);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+.row3{
+    background-color:darkgreen;
+    background: linear-gradient(to right, blue, green);
+    color: yellowgreen;
+    padding: 10px;
+}
+#Blogs{
+    background-color: yellow;
+    color:black;}
+
+.container1.1{
+display: flex;
+    flex-direction: column;
+}
+#Contact{
+    background-attachment: fixed;
+    background-color: blueviolet;
+ 
+}
+.contact-nav{
+    background-color: yellow;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.nav3{
+    background-color: red;
+    height: 60%;
+    width: 60%;
+    justify-content: center;
+    align-content: center;
+}
+#Top-button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color: 0.3s;
+    align-content: center;
+justify-content: center;
+align-items: center;
+}
+#Top-button:hover{
+    transition-delay: 0.3s;
+background-color:blueviolet;
+color: black;
+border-radius: 10px;
+}
+}
+#footer{
+    background-color: darkgreen;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
